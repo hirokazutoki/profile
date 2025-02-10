@@ -11,20 +11,19 @@
 <div class="flex flex-col sm:flex-row h-screen">
 
     <!-- 基本は非表示。sm以上になるとblock要素として表示される   -->
-    <aside class="hidden sm:block w-[200px] px-3 bg-blue-700">
+    <aside class="hidden sm:block w-[250px] px-3 bg-blue-700">
         <div>TITLE</div>
-
-        <ul class="py-3">
-            <li class="w-full px-3 hover:bg-gray-100">Link 1</li>
-            <li class="w-full px-3 hover:bg-gray-100">Link 2</li>
-            <li class="w-full px-3 hover:bg-gray-100">Link 3</li>
+        <ul class="py-3 *:w-full *:px-3 *:hover:bg-gray-100">
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
         </ul>
     </aside>
 
-    <main>
+    <main class="mb-auto">
         <div class="content-container">
             <img class="rounded-full w-[30vw] h-[30vw]" src="/src/img/my-face.jpg" alt="Rounded avatar">
-            <h1 class="md:text-[3vw] lg:text-[5vw]">Hirokazu Toki</h1>
+            <h1 class="text-[10vw] lg:text-[5vw]">Hirokazu Toki</h1>
             <div>
                 <span><i class="fa-solid fa-briefcase"></i></span>
                 <span>Software Developer</span>
@@ -33,28 +32,22 @@
                 <span><i class="fa-solid fa-location-arrow"></i></span>
                 <span>Toyooka, Japan</span>
             </div>
-            <div>
-                <a href="https://github.com/hirokazutoki" target="_blank"
-                   class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                ><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/hirokazutoki" target="_blank"
-                   class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                ><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://speakerdeck.com/hirokazutoki" target="_blank"
-                   class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                ><i class="fa-brands fa-speaker-deck"></i></a>
-                <a href="https://zenn.dev/hirokazutoki" target="_blank"
-                   class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                >Zenn</a>
+            <div class="[&>a]:bg-blue-500 [&>a]:hover:bg-blue-700 [&>a]:text-white
+                [&>a]:font-bold [&>a]:py-2 [&>a]:px-4 [&>a]:rounded"
+            >
+                <a href="https://github.com/hirokazutoki" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/hirokazutoki" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://speakerdeck.com/hirokazutoki" target="_blank"><i class="fa-brands fa-speaker-deck"></i></a>
+                <a href="https://zenn.dev/hirokazutoki" target="_blank">Zenn</a>
             </div>
         </div>
     </main>
 
-    <footer class="sm:hidden sticky bottom-0 bg-yellow-500 py-2">
-        <ul class="flex justify-between">
-            <li class="w-full">link 1</li>
-            <li class="w-full">link 2</li>
-            <li class="w-full">link 3</li>
+    <footer class="sm:hidden sticky bottom-0 bg-yellow-500 py-4">
+        <ul class="flex justify-between *:w-full *:text-red-500">
+            <li>link 1</li>
+            <li>link 2</li>
+            <li>link 3</li>
         </ul>
     </footer>
 
