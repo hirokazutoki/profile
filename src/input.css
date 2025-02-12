@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@plugin "tailwindcss-motion";
 
 @theme {
     --color-primary: #2979ff;
