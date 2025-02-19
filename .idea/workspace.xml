@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="425fdb1f-b321-42b8-83db-a275b06f9b43" name="Changes" comment="Start using Tailwind in HTML">
+    <list default="true" id="425fdb1f-b321-42b8-83db-a275b06f9b43" name="Changes" comment="auto update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739533345597</updated>
-      <workItem from="1739533347987" duration="3452000" />
+      <workItem from="1739533347987" duration="5061000" />
     </task>
     <task id="LOCAL-00001" summary="delete files">
       <option name="closed" value="true" />
@@ -185,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739538635976</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="auto update">
+      <option name="closed" value="true" />
+      <created>1739585413607</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739585413607</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +232,7 @@
     <MESSAGE value="Configure the Vite plugin" />
     <MESSAGE value="Import Tailwind CSS" />
     <MESSAGE value="Start using Tailwind in HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start using Tailwind in HTML" />
+    <MESSAGE value="auto update" />
+    <option name="LAST_COMMIT_MESSAGE" value="auto update" />
   </component>
 </project>
